@@ -1,0 +1,25 @@
+# MySEOapp backend runtime + test dependencies
+fastapi>=0.111
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+httpx>=0.27
+beautifulsoup4>=4.12
+lxml>=5.2
+python-dateutil>=2.9
+
+# Multi-tenant SaaS layer (db, auth) — imported by app/db, app/idp, app/security
+sqlmodel>=0.0.21
+sqlalchemy>=2.0
+pyjwt>=2.9          # `import jwt` in app/idp/providers.py + app/security/tokens.py (NOT python-jose)
+alembic>=1.13       # database migrations (backend/alembic/)
+
+# Optional provider extras — uncomment when switching off the mock providers
+# stripe>=9.0       # SEO_BILLING_PROVIDER=stripe (lazy-imported in app/billing/providers.py)
+# celery>=5.4       # background job queue (planned; not yet imported)
+# redis>=5.0        # celery broker / shared rate-limit store (planned; not yet imported)
+
+# Testing
+pytest>=8.0
+pytest-asyncio>=0.23
+respx>=0.21

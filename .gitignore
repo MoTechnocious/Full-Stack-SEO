@@ -1,0 +1,33 @@
+# Secrets
+.env
+*.env
+!.env.template
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local databases (dev artefacts)
+*.db
+*.sqlite
+*.sqlite3
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+.next/
+dist/
+build/
+out/
+npm-debug.log*
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
