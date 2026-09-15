@@ -1,5 +1,6 @@
 # MySEOapp
 
+[![CI](https://github.com/MoTechnocious/MySEOapp/actions/workflows/ci.yml/badge.svg)](https://github.com/MoTechnocious/MySEOapp/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Backend: FastAPI](https://img.shields.io/badge/backend-FastAPI-009688.svg)](backend/)
 [![Frontend: Next.js 14](https://img.shields.io/badge/frontend-Next.js%2014-black.svg)](frontend/)
