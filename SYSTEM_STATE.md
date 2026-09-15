@@ -96,7 +96,7 @@ Full request-flow diagram (auth → org resolution → RBAC → quota → tenant
 - **C — Keywords**: `providers.py`, `research.py`, `serp.py`, `clustering.py`, `rank_tracker.py` → 11 tests green.
 - **D — Reporting**: `tasks.py`, `reports.py`, `whitelabel.py` → 9 tests green.
 - **E — Integrations**: `validation.py`, `crm_pipeline.py`, `make_gateway.py`, `webhooks.py` → 24 tests green.
-- **F — MCP server**: full TS server + 9 tools → build green, 89 tests green (verified 2026-09-15; 7 at MVP).
+- **F — MCP server**: full TS server + 55 tools → build green, 89 tests green (verified 2026-09-15; 9 tools and 7 tests at MVP).
 - **G — Frontend**: Next.js dashboard, typed API client, mock fallback → typecheck + build green.
 - **H — Specs**: `FEATURE_MATRIX.md` (224 features), `PRODUCT_SPEC.md`, `ARCHITECTURE.md`.
 

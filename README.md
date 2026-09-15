@@ -11,7 +11,7 @@ A unified, self-hostable SEO platform that combines the core capabilities of
 **Screaming Frog** (technical crawl/audit), **Surfer SEO** (content optimization),
 **Rank Math** (on-page rule engine + schema), and **Hike SEO** (rank tracking,
 action plans, white-label agency reporting) — exposed over a **REST API**, an
-**MCP server**, and a **React/Next.js dashboard**, with **Make.com + CRM**
+**MCP server** (55 tools), and a **React/Next.js dashboard**, with **Make.com + CRM**
 integration pipelines.
 
 Built as the core infrastructure for scalingfirm.com's client SEO automation, and
@@ -35,7 +35,7 @@ MySEOapp/
 │       ├── middleware/ # rate limiting · request context · error handling
 │       ├── services/   # persistence seam (in-memory; DB-ready)
 │       └── utils/      # URL · text/NLP · HTML parsing helpers
-├── mcp-server/         # TypeScript MCP server (9 SEO tools over the REST API)
+├── mcp-server/         # TypeScript MCP server (55 SEO tools over the REST API)
 ├── frontend/           # Next.js 14 (App Router) + TS + Tailwind dashboard
 ├── docs/
 │   ├── research/       # competitor feature inventories (the 4 tools)
